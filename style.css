@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+html{
+    font-family: "Roboto", serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 92px;
+    margin-left: 184px;
+    margin-bottom: 36px;
+
+}
+
+section { 
+    display: flex ;
+    justify-content: space-around;
+    margin-bottom: 112px;
+}
+
+.photo{
+    margin-left: 48px;
+}
+
+.text{
+   padding-top: 200px;
+   padding-bottom: 192px; 
+}
+
+.header_text{
+    font-size: 62px;
+    line-height: 72px;
+}
+
+p{
+    color: #6B7280;
+    font-size: 19px;
+}
+
+button{
+    margin-left: 400px;
+    background-color: #3C6172;
+    color: white;
+    height: 42px;
+    width: 86px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+span{
+    color: #1F2937;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.section_title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.text1 {
+   margin-top: 128px;
+}
+
+footer{
+    background-color: #3C6172;
+    height: 392px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-text{
+    color: white;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.name {
+    font-size: 18px;
+    color: white;
+}
+
+.avatar {
+    height: 45px;
+    margin-right: 12px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.author {
+    font-size: 16px;
+    color: #6B7280;
+}
